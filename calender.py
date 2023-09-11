@@ -10,8 +10,8 @@
 
 import calendar
 
-year = 2022
-month = 2
+year = int(input("Enter Year "))
+month = int(input("Enter Month  "))
 
 # Using the calendar module
 x = calendar.month(year, month)
